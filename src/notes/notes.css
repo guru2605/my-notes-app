@@ -1,0 +1,47 @@
+.notes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: flex-start;
+}
+
+.note{
+    width: 210px;
+    margin: 10px;
+    background-color: rgb(168, 193, 124);
+    border-radius: 1%;
+    padding: 1em;
+    text-overflow: ellipsis;
+}
+
+
+/* Create Note CSS */
+
+.create-note-form {
+    margin:  0 auto;
+    height: 200px;
+    margin-top: 40px;
+    background-color: rgb(205, 191, 191);
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+.create-note-form input {
+    width: 300px;
+    height: 20px;
+    border: 2px solid rgb(125, 114, 114);
+    border-radius: 2px;
+}
+
+.create-note-form button {
+    font-size: 14px;
+    color: rgb(210, 200, 200);
+    background-color: rgb(67, 63, 98);
+    border: 2px solid rgb(115, 97, 97);
+    margin-top: 10px;
+    
+}
+
+.create-note-form h3 {
+    margin: 10px;
+}
